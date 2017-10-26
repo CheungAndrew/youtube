@@ -1,4 +1,4 @@
-def LinearSearch(arr, target):
+def linear_search(arr, target):
 
     for i in range(len(arr)):
         if (target == arr[i]):
@@ -11,7 +11,7 @@ def main():
     arr = [1, 2, 3, 4, 16, 15, 14, 11]
     target = 14
 
-    result = LinearSearch(arr, target)
+    result = linear_search(arr, target)
     print(result)
 
 
